@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+    input:valid,
+    textarea:valid{
+        background-color:yellow;
+    }
+    input:invalid,
+    textarea:invalid{
+        background-color: red;
+    }
+</style>
+<body>
+    <input value="Nabil shah" readonly/>
+    <input value="Nabil" disabled/><br/>
+    <br/>
+    <label> Type your name:</label> 
+    <input value="shah" minlength="5" maxlength="10"/><br/>
+    <br/>
+    <label> Type your message:</label>
+    <textarea minlength="10" maxlength="40"></textarea><br/>
+    <br/>
+    <label for="date"> Date:</label>
+    <input type="date" min="2020-01-13" max="2024-01-13" step="1"/><br/>
+    <br/>
+    <label for="month"> Month</label>
+    <input type="month" min="2020-12" max="2024-12" step="0"/><br/>
+    <br/>
+    <label for="week">Week:</label>
+    <input type="week" min="2020-W1" step="1"/><br/>
+    <br/>
+    <label for="time">Time:</label>
+    <input type="time" min="10:00" step="900"/><br/>
+    <br/>
+    <label for="contact">Mobile No:</label>
+    <input type="tel" placeholder="Enter Your mobile No"/><br/>
+    <br/>
+
+    
+    <label for="Range">Range:</label>
+    <input type="range" min="50" max="99" step="5"/><br/>
+    <br/>
+    <label for="Text">Text:</label>
+    <input type="text" /><br/>
+    <br/>
+    <label for="number">Number:</label>
+    <input type="number" min="10" max="100" step="5"/> <br/>
+    <br/>
+<form>
+    <fieldset>
+        <legend> Form</legend>
+        <label>Email</label>
+        <input type="email" placeholder="Enter Your Email Id"/><br/>
+        <br/>
+        <label>Password</label>
+        <input type="password" placeholder=" Enter Your Password"/>
+        <br/>
+        <br/>
+        <input type="submit">
+    </fieldset>
+</form>
+
+
+
+
+
+
+</body>
+</html>
