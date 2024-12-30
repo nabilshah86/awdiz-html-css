@@ -9,6 +9,7 @@ body{
 .continer{
     width: 85%;
     margin: auto;
+    padding: 10px;
 }
 .header{
     position: relative;
@@ -89,7 +90,9 @@ height: 50px;
 .detectLocation {
     color: rgb(197, 56, 56);
     font-size: 23px;
+
 }
+
 .fa-caret-down{
     color: black;
 }
@@ -98,6 +101,7 @@ height: 50px;
     font-size: 16px;
     width: 190px;
     /* margin: 8px; */
+    outline: none;
 }
 .search-item{
     color: rgb(182, 156, 156);
@@ -115,4 +119,38 @@ height: 50px;
     padding: 5 10px;
     outline: none;
     margin: 8px;
+}
+.section-1{
+    margin: 40px;
+}
+.continer-feature{
+    display: flex;
+    justify-content: space-between;
+
+}
+.features{
+    overflow: hidden;
+    border-radius: 20px;
+    border: 0.1px solid rgb(194, 190, 190);
+    
+
+}
+.feature-image{
+    width: 550px;
+    height: 200px;
+    overflow: hidden;
+    
+}
+.feature-image img{
+    width: 100%;
+    object-fit: cover;
+}
+.features h3,
+.features p{
+ padding-left:20px ;
+}
+.features:hover{
+    transition: transform 0.75 ;
+    transform: scale(1.03);
+    cursor: pointer;
 }
