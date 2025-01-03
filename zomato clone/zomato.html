@@ -4,63 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zomato</title>
-   <link rel="stylesheet" href="index2.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="icon" href="data:image/png;base64,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">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAeFBMVEXiN0T////jPUniNULiLz3hKzriMkDqfYPhJzfgHzHum5/pd37++vrgIjPgHC/30tTtlJn65OX98fLfBiLjRE/gFiveABbeABDlU1342NrmYWnnaHDrg4nxr7Lzubz1yMrsi5H0wMPvoqblWmPocHfkTFfdAADgKS0LuiwmAAAJOElEQVR4nO2ZaZOEJhCGVQ5vx3vVUcdxnM3//4cBDxqP2WRTqQqV4v2yKwr0A3TTMIZl/G9kGRpGTWkYVaVhVJWGUVUaRlVpGFWlYVSVhlFVGkZVaRhVpWFUlYZRVRpGVWkYVaVhVJWGUVUaRlVpGFWlYVSVhlFVGkZVaRhVpWFUlYZRVRpGVWkYVaVhVJWGUVUaRlVpGFWlYVSVhlFVGkZVaRhVpWFUldIwiFKEfvG9wjCU0Pw+4F/QqAqDiJM3cW0+sl9UUhMGObQZ+tQ0g674RTUlYZAxdbXJFXjRL+opCUPfD3NR2oa/qKckDGmSDeZOflHvP4dBlBByCFnEX1nMxKK/aOufwVDihAR/sE585LihbApiz/s6NMy+MqtqmrdTZvIrT8CcghmOsrLMMvcK8gxDC6bIdd1wEfsv4kXCJlyUTmO3U/WVOQhKCXHcgnUULmUkw3bc5tnWKSndKR6qUiwb6pZoeKbbenq+y+VTnJXRc4N5fJdM2dYNir4r73mrb32Mvs4L8ASDX89H33WjBxq7rn8+i83oqg/Wrup2WyDIqBp/8PpbatYFK8LhtCz7+j2bSJ37Ep6SuzN/T0nubSBba2+CuL/UCbwIUq6Ezr1QYozweeqHx9k5wTj2oY+tbjm3h6uHXJr4dG4RN6JWHSJEcvEVNwThvBfPs0vTpjdPSn0G6sbnFzUfMoQtL9gVP94HXzvBRIcawggOg63h8DYYDTrP5xZ/zJogcpcGpHUQft3gueN01mUnHLTozuUd5ixyI+v3DfkZpug+w5D83FPg8VxQhnGcSZ7cR0Z3ZjwqaiB0MmxWj1H2OBcPmLGs63SnuiI/wlw1tsKwxXIBmt7xbpndsqbeV8x3ltcN+54Ol52wd+WFzawH/LooZ3O2y6qPMCi8HjOzLxAaLyftaSEZ5oH3w5F+790j4TD4tTSVsGDT30SzaeuUFy5bYWpcm5VOzg8w9H05AubNouRDaDAbapC7MOjZ7pGTxjw885nhESIZ2/s7R1bVijUaR/jcSfqmjncqXTRS9BnG8S8tTnJC3zA4yTBJwz9ig0zbQ/BIdjXN43P94u5Mh9quDIew4xfFhQg6XpT3Pcxk0rGnfrQoggGqbVvq+1bhH2BatiUxPZgAK2GOhlsZjbiAVhMpAQlYrXSUwlnAE/kJvn7MOw8ycioGFXIxzzUslMMwuRYTc2Tgq0PsSE64S95OAYBlKsRhCktoIG0ctjDE+ksnlsq6NgwWQVTeHZJ7WMphL/ALGHuzs2YGxFwX8bQodAipJBgW2EVNm+1ZXBk0VrCZkFoz/Z9gNqYQzEknl8crGNsvbkwEDbL9RzI+9QujkJ3ez+Tdy1tcFmHMDpP3dhjsBt9XmGBgw+TAwKxrKIKSkSdrzgRLt/1hmW0sGBKHtHV5iTA3WCLIF6ykHFuwjAPenxxg+y9D3gq5vXw7f43nUJParOkIBiJaFmIJts+hWNrVzEGKANcwiMRiJIPYnZMJUT9dUkkZhuTQ+o2nBFL3AcvVkCMMnHMWiqfnicRcc51CeETwtVjjCmOS+eBJKxiHQUrQrmEcyFqCcbYdUVG9nrM0GcYib/jeK3i2Dy/5M4WZq1kKQj/sWOaNRzrYaZKlJ9KIr/t5Ucgz0/6Vz0Qt2NKRJZN8i5J+PmOgAuzB+AWDyycGV5JDzdmOGG0WzBCRPCpNJa5nziqDt69XMyEMrTebTu4A81cBoJByq27Jig0pxCwXJhQmIyVYRGbzOXsohLrbnNeDx/YEZcIfb2M8tEM8JvCSTZtoa1yOHRHsmMs8hDDYP4dmFnSlSezpGixgI1lhQtjoH4SI7piH8e5hGXm8AQd6HyPyWh+SuGKHTycsrG3eumg3bO0S+AoIRj5eCkTz9etHnwnfwPLAW+A7wWRPUTBgWDfBPFLSy4m3EIrYGsTh9jIdnOU8IuZtvlhyT5FZgrF5CSLQ/LprfYAhFkSKG1wnSOM1LyRKAbnCBALQXCWDNuaRC4U5iR06a81+XcFgbMrDthTF18gsbTOzz8guM8hXUUcYQqQ05Y/vr0XfDoUcI/nm5sJMPywKwSvgAQi5oreAJy8INqm6cddUJ4jX+z1cbV0mPGxnYAAfNeRgx4e+lkUMJr7wZ5hdql3XCRc7hJsDIRB87YJG0uBMRPLZ5UAKKzXh8Ym+n8IaI7T3MFSaNn5ylLaoEmPHae9ESjNzh7pSLjzuLjz3MNQQve5VYemUkto5JO08nOIKnpZ0A0431j4yPyMRinqMWdqFMZzT5tuPEix/Nn6XsjAgb8HNewCW+vX5pImsiwP4bD4z2P7wimWdISTU892wC/11fJuRFnlXkI008FirViVduNz4x+VhP00mEl1ccswtxPtr9R2MFLL2ulmI5snVm8BjuZHks3zVy/cIMU+d4JCU8txINMS2mU5u9eFewLCsAIXXCUPv/HA7Q9rLOvP4suPURYtBZ+Gdz765Q0qR2ebrAGaOu/jxliGoN9T5bq48DBrPCorLqXnmh0vVvwfD82xqna+6gi7nxkppGr8BRNLBbSJz2ipgKiqnWrP6eKvec5ji0E3HsgIUPi9Y3o7xAwz+BMNNMnB+bDGIrdkBSyjhea50j5Dy+CS5Ys0Xxt4FRmOLAMsvS1I0Wd5zL6Snvs0xP7LsYT5cALEQMs8nPtyoPppl2yOQZqYcRroUTefbC/Fzi3mbtw4CK/YxGY5AnWfGcKWQYCbeer976Pvm0/PF/R7m3nks87N935+42F+b54FrgywHrEROGPR3a/U/WrX2qjmHpZW/PU88MiPrvj0vV5AIV/EjSepn/LIIze3tUnvJgBFt15lNuynf0gRKX+OGEzz9nFz8cHvYZ/AmyiX+Fbfw7Kyb+7EX229KsMh1EFRbnkU7S03p2RAfEFFweovZOfTeVIZoYOsk973Ra19y359h/oYQJSFLdX/zi/Z1O1yfX2L+C9TxPe87cj/3/Z//cvZvSsOoKg2jqjSMqtIwqkrDqCoNo6o0jKrSMKpKw6gqDaOqNIyq0jCqSsOoKg2jqjSMqtIwqkrDqCoNo6o0jKrSMKpKw6gqDaOqNIyq0jCqSsOoKg2jqjSMqtIwqkrDqCoNo6o0jKrSMKpKw6gqDaOqNIyq0jCqSsOoKg2jqjSMqvp/wfwJE4GJigXXGA0AAAAASUVORK5CYII=">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-<div>
-    <div class="image-container">
-        <img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="Zomato">
-    </div>
-    <div class="header-body-selection">
-        <div class="navContiner">
-            <div class="continer continer-nav  ">
-        <div>
-          <p>Get the app</p>
+  <header>`
+    <nav>
+        <div class="getApp">
+            <a href=""> Get the App</a>
         </div>
-       
-        <ul>
-            <li> <a href="investor">Insvestor Relations</a></li>
-            <li> <a href="restaurant">Add Restaurant</a></li>
-            <li> <a href="login"> Log in </a></li>
-            <li> <a href="signup"> Sign up</a> </li>
-        </ul>
-        
-    </div>
-    </div>
-    <div class="header-body-content">
-        <div class="continer continer-header-body">
-            <img class="zomato-logo" src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"/>
-    <h1 class="Discover">Discover the best food & drinks in Dhule </h1>
-    <div class="search-container">
-        <div class="detectLocation">
-            <i class="fa-solid fa-location-dot"></i>
-            <input type="text" placeholder="Dhule"/>
-            <i class="fa-solid fa-caret-down"></i>
+        <div class="item">
+
+            <ul>
+                <li><a href="">Investor Relation</a></li>
+                <li><a href="">Add Restaurant</a></li>
+                <li><a href="">Log In</a></li>
+                <li><a href="">Sign up</a></li>
+            </ul>
         </div>
-        <div class="line">|</div>
-        <div class="search-item">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search for restaurant, cuisine or a dish">
-        </div>
-    </div>
-        </div>
-    </div>
-    </div>
-    
-</div>
-<div class="section-1">
-    <div class="continer continer-feature">
-        <div class="features">
-            <div class="feature-image">
-                <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt="">
+    </nav>
+    <div class="content">
+        <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="">
+        <h1>Discover the best food & drinks in Chhindwara</h1>
+        <div class="search">
+            <div class="left_Side">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="Dhule">
             </div>
-            <h3>order online</h3>
-            <p>stay home and order to your doorstep</p>
+            <div class="Right_Side">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for restaurant,cuisine or a dish">
+            </div>
         </div>
     </div>
-</div>
-      <p class="head"> Popular localities in and around Chhindwara</p>
+</header>
+<!-- hearder finish -->
+ <div class="order-sections">
+    <div class="order">
+        <div class="card">
+            <a href=""> <img src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?output-format=webp&fit=around|402:360&crop=402:360;*,*" alt=""></a>
+
+            <div class="content-card">
+                <p>Order Online</p>
+                <p>Stay home and order to your doorstep</p>
+            </div>
+        </div>
+    </div>
+ </div>
 </body>
 </html>
