@@ -123,17 +123,34 @@ margin-bottom: 40px;
     width: 100%;
     height: 200px;
     border-radius: 8px;
+    top: 0;
+    left: 0;
     
 
 }
 .order .card:hover{
     transform: scale(1.1);
 }
- .card .cantent-card{
+ .card .content-card{
     text-align: left;
     width: 100%;
     padding: 0 12px;
     position: absolute;
     bottom: 0;
     background: white;
+    border-radius: 8px;
+}
+.card .content-card .heading{
+    font-size: 18px;
+    margin: 10px 0 ;
+    font: bolder;
+
+}
+.card .content-card .text{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.collections h1 span{
+    color: white;
+    font-weight: lighter;
 }
