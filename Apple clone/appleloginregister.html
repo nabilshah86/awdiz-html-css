@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign In- Secure Checkout- Apple </title>
     <style>
         *{
             margin: 0;
@@ -11,42 +11,207 @@
             box-sizing: border-box;
         }
         #screen{
-            width: 70%;
+            width: 100%;
 
         }
         #header{
-            width: 70%;
-            border: 2px solid black;
+            /* width: 70%; */
+            margin: auto;
+            height: 70px;
+            /* border: 2px solid black; */
             
         }
         #navbar{
-            justify-content: space-around;
-            align-items: center;
+            width: 62%;
             display: flex;
+            justify-content: space-between;
+            margin: auto;
+            text-align: center;
+            align-items: center;
+            /* background-color: black;     */
+            font-size: small;
+        }
+    
+        #body{
+           margin: auto;
+        }
+        #body h1{
+            
+            width: 62%;
+            height: 100px;
+            margin:auto;
+            font-size: 42px;
+        }
+        #appleSign{
+            padding-top: 50px;
+            text-align: center;
+            font-size: 25px;
+            color: #494949;
+        }
+        #Email{
+            padding-top: 30px;
             text-align: center;
         }
+        #Email input{
+            width: 450px;
+            height: 50px;
+            border-radius: 10px;
+            transition-duration: 0.5s;
+          outline: none ;
+        }
+        input[type=text]:focus{
+            border: 2px solid lightseagreen;
+            /* outline: none; */
+        }
+        #checkbox{
+            padding-top: 
+            100px;
+            text-align: center;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #checkbox p{
+            padding-left: 15px;
+            color: #494949;
+            font-size: large;
+        
+        }
+        input[type="checkbox"] {
+            width: 15px;
+            height: 15px;
+        }
+        
+        #forget{ 
+            padding-top: 30px;
+            text-align: center;
+        }
+        #forget a{
+            color: #3385d6;
+            text-decoration: none;
+            font-size: large;
+        }
+       #forget a:hover {
+     text-decoration-line: underline;
+       }
+       #creat{
+        height: 200px;
+        padding-top: 15px;
+        text-align: center;
+        color: #696969;
+        border-bottom: 1px solid#d2d2d7;
+       }
+       #creat p a {
+        text-decoration: none;
+        color: #3385d6;
+       }
+       #creat a:hover{
+        text-decoration: underline ;
+       }
+       #fotter{
+        width: 100%;
+        height: 200px;
+       }
+       #foot{
+        padding-top: 20px;
+        width: 60%;
+        margin: auto;
+        padding-bottom: 20px;
+       }
+       #foot p{
+        font-size: large;
+        color: #411d43;
+       }
+       #foot p a{
+        color: #3385d6;
+       }
+       #last{
+        width: 100%;
+        margin: auto;
+        height: 150px;
+        background-color: #f5f5f7;
+       }
+       #cont{
+        padding-top: 30px;
+        width: 60%;
+        margin: auto;
+        border-bottom: 1px solid#d2d2d7;
+       }
+       #last p{
+        font-size: 15px;
+        color: #696969;
+        padding-bottom: 20px;
+       }
+       #last p a{
+        color: #5b5b5b;
+       }
+       #lastLine{
+        padding-top: 30px;
+        width: 60%;
+        margin: auto;
+       }
+
+          
+        
     </style>
 </head>
 <body>
     <div id="screen">
         <div id="header">
             <div id="navbar">
-                <img style="color: black;" src="../Apple clone/image2/svgexport-2.svg" alt="">
-                <p>Store</p>
-              <p>Mac</p>
-              <p>iPad</p>
-              <p>Watch</p>
-              <p>Airpods</p>
-              <p>TV & Home</p>
-              <p>Enternmaint</p>
-              <p>Accessories</p>
-              <p>Suport</p>
-              <img src="../Apple clone/image2/svgexport-17.svg" alt="">
-              <img src="../Apple clone/image2/beg.svg" alt="">
-</div>
+                <img style="color: black;" src="../Apple clone/image2/apple black.svg" alt="">
+              <img src="../Apple clone/navbar image/store.svg" alt="">
+              <img src="../Apple clone/navbar image/mac.svg" alt="">
+              <img src="../Apple clone/navbar image/ipad.svg" alt="">
+              <img src="../Apple clone/navbar image/iphone.svg" alt="">
+              <img src="../Apple clone/navbar image/watch.svg" alt="">
+              <img src="../Apple clone/navbar image/vision.svg" alt="">
+              <img src="../Apple clone/navbar image/Airpods.svg" alt="">
+              <img src="../Apple clone/navbar image/tv & home.svg" alt="">
+              <img src="../Apple clone/navbar image/Entertainment.svg" alt="">
+              <img src="../Apple clone/navbar image/Accessories.svg" alt="">
+              <img src="../Apple clone/navbar image/Support.svg" alt="">
+              <img src="../Apple clone/image2/search black.svg" alt="">
+              <img src="../Apple clone/image2/beg black.svg" alt="">
             </div>
         </div>
-        <div></div>
+        <div id="body">
+           <h1>Sign in for faster checkout.</h1>
+           <div id="appleSign">
+            Sign in to Apple Store
+           </div>
+           <div id="Email">
+          <input type="text" placeholder="  Email or Password">
+        </div>
+        <div id="checkbox">
+            <input type="checkbox">
+            <p>Remember me</p>
+        </div>
+        <div id="forget">
+            <a href="">Forgot password?</a>
+        </div>
+        <div id="creat">
+            <p>Don’t have an Apple Account? 
+                <a href=""> Create yours now.</a></p>
+        </div>
+
+
+        </div>
+        <div id="fotter">
+            <div id="foot">
+                <p>Need some help? <a href="">Chat now</a> or call 1‑800‑MY‑APPLE.</p>
+            </div>
+            <div id="last">
+                <div id="cont">
+                <p>The Apple Online Store uses industry-standard encryption to protect the confidentiality of the information you submit. Learn more about our <a href="">Security Policy</a>.</p>
+            </div>
+            <div id="lastLine">
+                <p>More ways to shop: <a href="">Find an Apple Store</a> or <a href="">other retailer</a> near you. Or call 1‑800‑MY‑APPLE.</p>
+                <p>Copyright © 2025 Apple Inc. All rights reserved.</p>
+            </div>
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
